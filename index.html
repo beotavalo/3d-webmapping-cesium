@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Mapa con OpenLayers</title>
+    
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="./resources/css/style.css">
+    
+    <!-- Enlace a la hoja de estilos de OpenLayers -->
+    <link rel="stylesheet" href="https://openlayers.org/en/v6.5.0/css/ol.css">
+    
+    <!-- Enlace al script de OpenLayers -->
+    <script src="https://openlayers.org/en/v6.5.0/build/ol.js"></script>
+
+    <!-- Cesium: Include the CesiumJS JavaScript and CSS files -->
+
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Cesium.js"></script>
+
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <!-- Contenedor para el mapa de OpenLayers -->
+    <div id="map" class="map"></div>
+    <!-- Contendedor para visualizacion de Cesium-->
+    <div id="cesiumContainer" class="cesiumContainer"></div>
+</div>
+    <script src="cesium_script.js" type="module"></script>
+    
+    <!-- Enlace al script JavaScript personalizado -->
+    <script src="main.js"></script>
+</body>
+</html>

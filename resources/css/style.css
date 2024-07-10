@@ -1,0 +1,37 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los contenedores se coloquen uno al lado del otro */
+}
+
+/* Contenedor principal que incluye ambos mapas */
+.container {
+    display: flex; /* Utiliza Flexbox para dividir la pantalla */
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* Estilo para el contenedor del mapa de OpenLayers */
+.map {
+    width: 720px; /* Ancho específico en píxeles */
+    height: 80%; /* Ocupa toda la altura del contenedor principal */
+    margin: 20px;; /* Espacio de 20px a la derecha */
+}
+
+/* Estilo para el contenedor de Cesium */
+.cesiumContainer {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 50%;
+    margin: 20px;
+    overflow: hidden;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Estilo para el cursor cuando se está dibujando una línea */
+.ol-draw-line {
+    cursor: crosshair;
+}
