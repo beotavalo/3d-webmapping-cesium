@@ -1,2 +1,2 @@
-# demo_webgis
-A demo to integrate openlayers, cesium and geopandas for webgis.
+# 3D Web Map with Geospatial Data
+A portfolio porject to demonstrate skills with [CesiumJS](https://cesium.com/platform/cesiumjs/)
